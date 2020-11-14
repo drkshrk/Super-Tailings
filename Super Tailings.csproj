@@ -57,6 +57,12 @@
     </Reference>
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="ReferenceAssemblies\readme.txt">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
     <Exec Command="cd $(TargetDir)&#xD;&#xA;del *.pdb&#xD;&#xA;del *.config&#xD;&#xA;del Eco*&#xD;&#xA;del em-base.dll&#xD;&#xA;del *.json&#xD;&#xA;" />
   </Target>
