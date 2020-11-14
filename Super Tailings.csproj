@@ -1,50 +1,59 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
-    <AssemblyName>SuperTailing</AssemblyName>
+    <AssemblyName>Super Tailings</AssemblyName>
     <RootNamespace>SuperTailing</RootNamespace>
+    <Version>0.0.1</Version>
+    <Authors>Steel Heart</Authors>
+    <Product>Super Tailings - ECO Mod</Product>
+    <PackageProjectUrl>https://github.com/drkshrk/Super-Tailings</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/drkshrk/Super-Tailings</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <AssemblyVersion>0.0.0.1</AssemblyVersion>
+    <FileVersion>0.0.0.1</FileVersion>
+    <SignAssembly>false</SignAssembly>
   </PropertyGroup>
 
   <ItemGroup>
     <Reference Include="Eco.Core">
-      <HintPath>..\..\..\Downloads\Eco Mods\EcoModKit_v0.9.1.4-beta\ReferenceAssemblies\Eco.Core.dll</HintPath>
+      <HintPath>\ReferenceAssemblies\Eco.Core.dll</HintPath>
     </Reference>
     <Reference Include="Eco.Gameplay">
-      <HintPath>..\..\..\Downloads\Eco Mods\EcoModKit_v0.9.1.4-beta\ReferenceAssemblies\Eco.Gameplay.dll</HintPath>
+      <HintPath>\ReferenceAssemblies\Eco.Gameplay.dll</HintPath>
     </Reference>
     <Reference Include="Eco.ModKit">
-      <HintPath>..\..\..\Downloads\Eco Mods\EcoModKit_v0.9.1.4-beta\ReferenceAssemblies\Eco.ModKit.dll</HintPath>
+      <HintPath>\ReferenceAssemblies\Eco.ModKit.dll</HintPath>
     </Reference>
     <Reference Include="Eco.Mods">
-      <HintPath>..\..\..\Downloads\Eco Mods\EcoModKit_v0.9.1.4-beta\ReferenceAssemblies\Eco.Mods.dll</HintPath>
+      <HintPath>\ReferenceAssemblies\Eco.Mods.dll</HintPath>
     </Reference>
     <Reference Include="Eco.Networking.ENet">
-      <HintPath>..\..\..\Downloads\Eco Mods\EcoModKit_v0.9.1.4-beta\ReferenceAssemblies\Eco.Networking.ENet.dll</HintPath>
+      <HintPath>\ReferenceAssemblies\Eco.Networking.ENet.dll</HintPath>
     </Reference>
     <Reference Include="Eco.Plugins">
-      <HintPath>..\..\..\Downloads\Eco Mods\EcoModKit_v0.9.1.4-beta\ReferenceAssemblies\Eco.Plugins.dll</HintPath>
+      <HintPath>\ReferenceAssemblies\Eco.Plugins.dll</HintPath>
     </Reference>
     <Reference Include="Eco.Shared">
-      <HintPath>..\..\..\Downloads\Eco Mods\EcoModKit_v0.9.1.4-beta\ReferenceAssemblies\Eco.Shared.dll</HintPath>
+      <HintPath>\ReferenceAssemblies\Eco.Shared.dll</HintPath>
     </Reference>
     <Reference Include="Eco.Simulation">
-      <HintPath>..\..\..\Downloads\Eco Mods\EcoModKit_v0.9.1.4-beta\ReferenceAssemblies\Eco.Simulation.dll</HintPath>
+      <HintPath>\ReferenceAssemblies\Eco.Simulation.dll</HintPath>
     </Reference>
     <Reference Include="Eco.Stats">
-      <HintPath>..\..\..\Downloads\Eco Mods\EcoModKit_v0.9.1.4-beta\ReferenceAssemblies\Eco.Stats.dll</HintPath>
+      <HintPath>\ReferenceAssemblies\Eco.Stats.dll</HintPath>
     </Reference>
     <Reference Include="Eco.WebServer">
-      <HintPath>..\..\..\Downloads\Eco Mods\EcoModKit_v0.9.1.4-beta\ReferenceAssemblies\Eco.WebServer.dll</HintPath>
+      <HintPath>\ReferenceAssemblies\Eco.WebServer.dll</HintPath>
     </Reference>
     <Reference Include="Eco.World">
-      <HintPath>..\..\..\Downloads\Eco Mods\EcoModKit_v0.9.1.4-beta\ReferenceAssemblies\Eco.World.dll</HintPath>
+      <HintPath>\ReferenceAssemblies\Eco.World.dll</HintPath>
     </Reference>
     <Reference Include="Eco.WorldGenerator">
-      <HintPath>..\..\..\Downloads\Eco Mods\EcoModKit_v0.9.1.4-beta\ReferenceAssemblies\Eco.WorldGenerator.dll</HintPath>
+      <HintPath>\ReferenceAssemblies\Eco.WorldGenerator.dll</HintPath>
     </Reference>
     <Reference Include="EcoServer">
-      <HintPath>..\..\..\Downloads\Eco Mods\EcoModKit_v0.9.1.4-beta\ReferenceAssemblies\EcoServer.dll</HintPath>
+      <HintPath>\ReferenceAssemblies\EcoServer.dll</HintPath>
     </Reference>
   </ItemGroup>
 
