@@ -1,0 +1,55 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>SuperTailing</AssemblyName>
+    <RootNamespace>SuperTailing</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Eco.Core">
+      <HintPath>..\..\..\Downloads\Eco Mods\EcoModKit_v0.9.1.4-beta\ReferenceAssemblies\Eco.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Eco.Gameplay">
+      <HintPath>..\..\..\Downloads\Eco Mods\EcoModKit_v0.9.1.4-beta\ReferenceAssemblies\Eco.Gameplay.dll</HintPath>
+    </Reference>
+    <Reference Include="Eco.ModKit">
+      <HintPath>..\..\..\Downloads\Eco Mods\EcoModKit_v0.9.1.4-beta\ReferenceAssemblies\Eco.ModKit.dll</HintPath>
+    </Reference>
+    <Reference Include="Eco.Mods">
+      <HintPath>..\..\..\Downloads\Eco Mods\EcoModKit_v0.9.1.4-beta\ReferenceAssemblies\Eco.Mods.dll</HintPath>
+    </Reference>
+    <Reference Include="Eco.Networking.ENet">
+      <HintPath>..\..\..\Downloads\Eco Mods\EcoModKit_v0.9.1.4-beta\ReferenceAssemblies\Eco.Networking.ENet.dll</HintPath>
+    </Reference>
+    <Reference Include="Eco.Plugins">
+      <HintPath>..\..\..\Downloads\Eco Mods\EcoModKit_v0.9.1.4-beta\ReferenceAssemblies\Eco.Plugins.dll</HintPath>
+    </Reference>
+    <Reference Include="Eco.Shared">
+      <HintPath>..\..\..\Downloads\Eco Mods\EcoModKit_v0.9.1.4-beta\ReferenceAssemblies\Eco.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="Eco.Simulation">
+      <HintPath>..\..\..\Downloads\Eco Mods\EcoModKit_v0.9.1.4-beta\ReferenceAssemblies\Eco.Simulation.dll</HintPath>
+    </Reference>
+    <Reference Include="Eco.Stats">
+      <HintPath>..\..\..\Downloads\Eco Mods\EcoModKit_v0.9.1.4-beta\ReferenceAssemblies\Eco.Stats.dll</HintPath>
+    </Reference>
+    <Reference Include="Eco.WebServer">
+      <HintPath>..\..\..\Downloads\Eco Mods\EcoModKit_v0.9.1.4-beta\ReferenceAssemblies\Eco.WebServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Eco.World">
+      <HintPath>..\..\..\Downloads\Eco Mods\EcoModKit_v0.9.1.4-beta\ReferenceAssemblies\Eco.World.dll</HintPath>
+    </Reference>
+    <Reference Include="Eco.WorldGenerator">
+      <HintPath>..\..\..\Downloads\Eco Mods\EcoModKit_v0.9.1.4-beta\ReferenceAssemblies\Eco.WorldGenerator.dll</HintPath>
+    </Reference>
+    <Reference Include="EcoServer">
+      <HintPath>..\..\..\Downloads\Eco Mods\EcoModKit_v0.9.1.4-beta\ReferenceAssemblies\EcoServer.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="cd $(TargetDir)&#xD;&#xA;del *.pdb&#xD;&#xA;del *.config&#xD;&#xA;del Eco*&#xD;&#xA;del em-base.dll&#xD;&#xA;del *.json&#xD;&#xA;" />
+  </Target>
+
+</Project>

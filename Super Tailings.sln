@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Super Tailings", "Super Tailings.csproj", "{5E8DE6DF-BE9E-440B-9DC2-251A86C07826}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E8DE6DF-BE9E-440B-9DC2-251A86C07826}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E8DE6DF-BE9E-440B-9DC2-251A86C07826}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E8DE6DF-BE9E-440B-9DC2-251A86C07826}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E8DE6DF-BE9E-440B-9DC2-251A86C07826}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF66BE1A-3267-475A-891B-33CEDB811404}
+	EndGlobalSection
+EndGlobal
